@@ -12,7 +12,6 @@ if (isset($_POST["submit"])) {
         echo $pass;
 
 }
-
 ?>
 
 <form action="" method="post" name="count">
