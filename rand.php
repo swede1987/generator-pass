@@ -6,7 +6,6 @@ $lenght = 8;
 if (isset($_POST["submit"])) {
     $lenght = (int)$_POST["text"];
     $pass="";
-
     while($lenght--)
         $pass.=$chars[rand(0, strlen($chars)-1)];
         echo $pass;
